@@ -14,9 +14,7 @@ body{
     background-color: black;
     color: #ffffff;
 }
-a{
-    color: rgb(255, 255, 255);
-}
+
 .Destaque{
     color: #ADE62E;
 }
@@ -58,6 +56,9 @@ a{
 }
 .apresentation__links__button{
     /* background-color: #ADE62E; */
+    display: flex;
+    justify-content: center;
+    gap: 16px;
     border: 2px solid #ADE62E; 
     width: 378px;
     text-align: center;
@@ -66,6 +67,9 @@ a{
     padding:21.5px 0;
     text-decoration: none;
     color: #F6F6F6;
-    font-family: "Montserrat", serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 600;
+}
+.apresentation__links__button:hover{
+    background-color: #272727;
 }
