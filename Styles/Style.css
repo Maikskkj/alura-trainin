@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&display=swap');
+
+:root{
+    --cor-primaria: black;
+    --cor-secundaria: #ffffff;
+    --cor-terciaira: #ADE62E;
+    --cor-hover: #272727;
+
+    --primaria-font:  "Krona One", sans-serif;
+    --secundaria-font: "Montserrat", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    
+} 
+
+body{
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+.cabecalho{
+    padding: 2% 0% 0% 15%;
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__links{
+    font-family: var(--secundaria-font);
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--cor-terciaira);
+    text-decoration: none;
+}
+
+
+.apresentation{
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentation__content{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    
+}
+.apresentation__content__title{
+    font-size: 36px;
+    font-family: var(--primaria-font);
+}
+
+.apresentation__content__text{
+    font-size: 24px;
+    font-family: var(--secundaria-font);
+}
+
+.Destaque{
+    color: var(--cor-terciaira);
+}
+.apresentation__links__subtitle{
+    font-family: var(--primaria-font);
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.apresentation__links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+.apresentation__links__button{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid var(--cor-terciaira);
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    padding:21.5px 0;
+    text-decoration: none;
+    color: #F6F6F6;
+    font-family: var(--secundaria-font);
+    font-weight: 600;
+}
+.apresentation__links__button:hover{
+    background-color: var(--cor-hover);
+}
+.rodape{
+    font-family: var(--secundaria-font);
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaira);
+    padding: 24px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
